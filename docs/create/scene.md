@@ -43,6 +43,8 @@ The `physics: true` line inside the `manifest.json` file instructs the app to ba
 }
 ```
 
+> Note: Unbaked objects might be banned in a future version since they are expensive to load. To future proof use the manual method.
+
 ### Scene files
 
 The other important file in there is `desert.scn` which is a JSON file describing the world and basic positioning info of apps being loaded into it.
